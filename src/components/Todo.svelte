@@ -49,6 +49,7 @@
   // Use update function to change completed field of current todo.
   function onToggle() {
     update({ completed: !todo.completed})
+    console.log('HELLO')
   }
 
 </script>
